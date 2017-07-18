@@ -1,6 +1,12 @@
-# Sunday, July 16, 2017
+このプロジェクトは自分の勉強用です。  
+* Slack apps
+* Google Apps Script
+* node-google-apps-script
+* ... and Github
 
-# Slackコマンドの追加（GASで実装)：連携確認まで
+
+Slackコマンドの追加（GASで実装)：連携確認まで
+---
 
 ## GASの作成と公開
 
