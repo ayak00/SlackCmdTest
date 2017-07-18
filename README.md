@@ -16,23 +16,23 @@ Slackコマンドの追加（GASで実装)：連携確認まで
   ※Spreadsheetのマクロ（Container-bound Script）で作成する場合は、
   [Tools]>[Script editor...]から作成。以下の手順は同様。
 
-1. デフォルトで作成されるmyFunction()をdoPost()にして、動作確認用のコードを編集
-例：  
-```
-function doPost() {  
-    return ContentService.createTextOutput("Hello, world!");  
-} 
-```
+2. デフォルトで作成されるmyFunction()をdoPost()にして、動作確認用のコードを編集  
+  例：  
+  ```
+  function doPost() {  
+      return ContentService.createTextOutput("Hello, world!");  
+  } 
+  ```
 
-1. 適当な名前で保存
+3. 適当な名前で保存
 
-1. 公開  
+4. 公開  
   [Publish]>[Deploy as web app...]
     * Project Version: New
     * Who has access to the app: Anyone, even anonymous ※  
       ※TODO:この辺要確認。
 
-1. Current web app URLをコピー
+5. Current web app URLをコピー
     * Current web app URL: https://script.google.com/macros/s/.../exec  
       以降このURLは[Deploy as web app...]から確認できる。
 
