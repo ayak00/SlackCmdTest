@@ -1,5 +1,5 @@
 このプロジェクトは自分の勉強用です。  
-* Slack apps
+* Slack Apps
 * Google Apps Script
 * node-google-apps-script
 * ... and Github
@@ -8,7 +8,7 @@
 Slackコマンドの追加（GASで実装)：連携確認まで
 ---
 
-## GASの作成と公開
+### GASの作成と公開
 
 1. GAS新規作成  
   Google Driveから[New]>..※..>[Google Apps Script]  
@@ -17,11 +17,12 @@ Slackコマンドの追加（GASで実装)：連携確認まで
   [Tools]>[Script editor...]から作成。以下の手順は同様。
 
 1. デフォルトで作成されるmyFunction()をdoPost()にして、動作確認用のコードを編集
-
-    例：  
-    function doPost() {  
-        return ContentService.createTextOutput("Hello, world!");  
-    } 
+例：  
+```
+function doPost() {  
+    return ContentService.createTextOutput("Hello, world!");  
+} 
+```
 
 1. 適当な名前で保存
 
@@ -37,7 +38,7 @@ Slackコマンドの追加（GASで実装)：連携確認まで
 
 
 
-## Slackに新規アプリの追加
+### Slackに新規アプリの追加
 
 1. アプリ新規作成  
   Teamのメニューから、[Apps&integrations]>[Build]>[Your Apps]>[Create New App]選択  
@@ -60,7 +61,7 @@ Slackコマンドの追加（GASで実装)：連携確認まで
 
 
 
-## コマンド確認
+### コマンド確認
 
 1. Slackで作成したコマンドを[Send]  
     上記例の場合、「Hello, World!」が返ってくればOK。
