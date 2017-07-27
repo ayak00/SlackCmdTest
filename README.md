@@ -2,11 +2,11 @@
 * Slack Apps
 * Google Apps Script
 * node-google-apps-script
-* ... and Github
+* ... and GitHub
 
-
-Slackコマンドの追加（GASで実装)：連携確認まで
 ---
+
+## Slackコマンドの追加（GASで実装)：連携確認まで
 
 ### GASの作成と公開
 
@@ -37,7 +37,6 @@ Slackコマンドの追加（GASで実装)：連携確認まで
       以降このURLは[Deploy as web app...]から確認できる。
 
 
-
 ### Slackに新規アプリの追加
 
 1. アプリ新規作成  
@@ -66,6 +65,11 @@ Slackコマンドの追加（GASで実装)：連携確認まで
 1. Slackで作成したコマンドを[Send]  
     上記例の場合、「Hello, World!」が返ってくればOK。
 
+---
+
+## Git/GitHubで管理
+[Google Apps Scriptの開発をモダンに行う方法](http://tech.speee.jp/entry/2016/04/28/190236)
+を参考にしました。
 
 
 
