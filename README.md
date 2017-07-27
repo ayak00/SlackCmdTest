@@ -68,8 +68,9 @@
 ---
 
 ## GASファイルをGit/GitHubで管理
-[Google Apps Scriptの開発をモダンに行う方法](http://tech.speee.jp/entry/2016/04/28/190236)
-を参考にしました。
+以下のページ等を参考にさせてもらいました。
+* [Google Apps Scriptの開発をモダンに行う方法](http://tech.speee.jp/entry/2016/04/28/190236)
+* [http://qiita.com/zaki-yama/items/9a301542137febd8876c](http://qiita.com/zaki-yama/items/9a301542137febd8876c)
 
 
 
